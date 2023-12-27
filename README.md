@@ -21,9 +21,9 @@ ardından systemctl restart postgresql-16.service denerek servis yeniden başlat
 3.)Secondary serverda postgre servisini durdurunuz .Secondary serverda şu işlem yapılır ( eğer database clusterını başlattıysanız ls den sonrasını yapmanız yeterli):
 [root@pg ~]# su postgres
 
-bash-4.2$ /usr/pgsql-14/bin/initdb -D /var/lib/pgsql/14/data/
+bash-4.2$ /usr/pgsql-16/bin/initdb -D /var/lib/pgsql/16/data/
 
-bash-4.2$ cd /var/lib/pgsql/14/data/
+bash-4.2$ cd /var/lib/pgsql/16/data/
 
 bash-4.2$ ls
 
